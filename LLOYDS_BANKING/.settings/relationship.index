@@ -1,0 +1,153 @@
+[ {
+  "baseItem" : {
+    "id" : "_398QMLX7Ee2r2NIn4OfYWQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_An-dYLXWEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "LLOYDS_BANKING:_FEKwgLYFEe2r2NIn4OfYWQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1rQ4MLXVEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_AqGhYLLCEe2udOOEBZKZuA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "LLOYDS_BANKING:_398QMLX7Ee2r2NIn4OfYWQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DHl2QLXdEe2awcqUHhZoOw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_An-dYLXWEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "LLOYDS_BANKING:_xNfroLLQEe2udOOEBZKZuA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1rQ4MLXVEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_FEKwgLYFEe2r2NIn4OfYWQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_An-dYLXWEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_1rQ4MLXVEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_JWrj0LXfEe2awcqUHhZoOw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_An-dYLXWEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_1rQ4MLXVEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_iEVm4LUPEe2zL6eRri5ULg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_An-dYLXWEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "LLOYDS_BANKING:_xNfroLLQEe2udOOEBZKZuA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1rQ4MLXVEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xNfroLLQEe2udOOEBZKZuA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_An-dYLXWEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "LLOYDS_BANKING:_AqGhYLLCEe2udOOEBZKZuA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_1rQ4MLXVEe2Ha_FICg_Kxw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+} ]

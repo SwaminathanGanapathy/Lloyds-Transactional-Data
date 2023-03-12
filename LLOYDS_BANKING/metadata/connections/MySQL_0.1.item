@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_B6PWgLXWEe2Ha_FICg_Kxw" name="MySQL" id="_1rQ4MLXVEe2Ha_FICg_Kxw" label="MySQL" dataPackage="_B7SfYLXWEe2Ha_FICg_Kxw" ContextMode="true" ContextId="_An-dYLXWEe2Ha_FICg_Kxw" contextName="Default" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/Lloyds_Banking?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="context.MySQL_Port" Username="context.MySQL_Login" Password="context.MySQL_Password" ServerName="context.MySQL_Server" DatasourceName="" FileFieldName="" SID="context.MySQL_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.MySQL_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_B6PWgbXWEe2Ha_FICg_Kxw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_B6t3oLXWEe2Ha_FICg_Kxw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_B6t3obXWEe2Ha_FICg_Kxw" tag="Status" value=""/>
+    <taggedValue xmi:id="_B6t3orXWEe2Ha_FICg_Kxw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_B6t3o7XWEe2Ha_FICg_Kxw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_B6t3pLXWEe2Ha_FICg_Kxw" tag="Description" value=""/>
+    <taggedValue xmi:id="_B6t3pbXWEe2Ha_FICg_Kxw" tag="Author" value=""/>
+    <taggedValue xmi:id="_B6t3prXWEe2Ha_FICg_Kxw" tag="otherParameter"/>
+    <taggedValue xmi:id="_B7IuYLXWEe2Ha_FICg_Kxw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_B7IuYbXWEe2Ha_FICg_Kxw" tag="DB ProductVersion" value="8.0.32"/>
+    <taggedValue xmi:id="_B7IuYrXWEe2Ha_FICg_Kxw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_B6PWgrXWEe2Ha_FICg_Kxw" key="CONN_PARA_KEY_USERNAME" value="context.MySQL_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_B7SfYLXWEe2Ha_FICg_Kxw" name="Lloyds_Banking" dataManager="_B6PWgLXWEe2Ha_FICg_Kxw"/>
+</xmi:XMI>
