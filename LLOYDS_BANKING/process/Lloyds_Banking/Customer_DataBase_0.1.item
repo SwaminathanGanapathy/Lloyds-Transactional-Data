@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="MySQL_Server" prompt="MySQL_Server?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="localhost" internalId="_Z_CvILXdEe2awcqUHhZoOw"/>
-    <contextParameter comment="" name="MySQL_Database" prompt="MySQL_Database?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="Lloyds_Banking" internalId="_Z_CvIbXdEe2awcqUHhZoOw"/>
-    <contextParameter comment="" name="MySQL_Login" prompt="MySQL_Login?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="root" internalId="_Z_CvIrXdEe2awcqUHhZoOw"/>
+    <contextParameter comment="" name="MySQL_Server" prompt="MySQL_Server?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="lloydsbanking.cu5hh9wuea2p.us-east-1.rds.amazonaws.com" internalId="_Z_CvILXdEe2awcqUHhZoOw"/>
+    <contextParameter comment="" name="MySQL_Database" prompt="MySQL_Database?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="lloyds_banking" internalId="_Z_CvIbXdEe2awcqUHhZoOw"/>
+    <contextParameter comment="" name="MySQL_Login" prompt="MySQL_Login?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="admin" internalId="_Z_CvIrXdEe2awcqUHhZoOw"/>
     <contextParameter comment="" name="MySQL_Port" prompt="MySQL_Port?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="3306" internalId="_Z_CvI7XdEe2awcqUHhZoOw"/>
     <contextParameter comment="" name="MySQL_AdditionalParams" prompt="MySQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_Z_CvJLXdEe2awcqUHhZoOw"/>
-    <contextParameter comment="" name="MySQL_Password" prompt="MySQL_Password?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_Password" value="enc:system.encryption.key.v1:7qgN5jIbdXXiVXsWsmvCkFR0R3UDqglGZCJsNofIEu0X9JA4BkA=" internalId="_Z_CvJbXdEe2awcqUHhZoOw"/>
+    <contextParameter comment="" name="MySQL_Password" prompt="MySQL_Password?" promptNeeded="false" repositoryContextId="_An-dYLXWEe2Ha_FICg_Kxw" type="id_Password" value="enc:system.encryption.key.v1:PY1jI+4rElIbDGad7aKgeZ94IuMtEvovlYfrWkxiJ6zqiYa1" internalId="_Z_CvJbXdEe2awcqUHhZoOw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -50,7 +50,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:NUS0D72dgJoLW49iXZpTBrXmCsKlmRSENJ3lSCXB" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:x10/kxAU2REgsaEiuSEdFZl3fvDIuoRMBQNv2w6f" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -85,7 +85,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4NK3KGWvftSewbgSCSjQDMk1h7KRS8MQZLKWyUpR" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:s0I+6/4vPJpUG9UAhWVTVNbLmZdyRL6yX1saaaTc" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -125,7 +125,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.MySQL_Database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQL_AdditionalParams"/>
     <elementParameter field="TEXT" name="USER" value="context.MySQL_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:X1ih2wYM0qbXq8q4bvgPmgYV9mwbm9mIf8W/AbDlD/XqRY+PyOqzQE6yYqbtcEUkDSA="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MzzZ6oSDkvuC2tFDwge6sUPCP60sOo/lzuzGH6RIrdvA9tcQlHMszFtKUNctxRroTJI="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -146,7 +146,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wDj4abDptB0j1oRrfXXIQSvU6xM2zLDMlOU3dUfv" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Ov7xmtmZZ8/zsjk61UBbHcReChhYxg3uXhbTiVQm" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -198,7 +198,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:it2wA/QXnDjMlrRqLff4vcGBRx+YdJG+zsIQ/Gvw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:n/dno0Gm9RAPyYbt+6JP/U+TLY8GjC3qjvFFhY54" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -256,7 +256,7 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UkDXRMVx5q1dmk8XELZmjgipIDyd8vSkAng/AymZ" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mh+9dA0gIfsLvIfKuBAJgceequWIS6/5vQ7lLuQU" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT_OR_UPDATE"/>
@@ -303,9 +303,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Customer_to_Business"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Customer"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="LLOYDS_BANKING:_xNfroLLQEe2udOOEBZKZuA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="LLOYDS_BANKING:_J5umAMDhEe2UOq8rA6i-IA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
