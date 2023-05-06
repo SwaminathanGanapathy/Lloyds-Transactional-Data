@@ -1,6 +1,7 @@
 #!/bin/bash
 
 aws s3 cp s3://lloydscleandata/split_data/ /home/ec2-user/ --include '*.csv' --recursive
+#aws s3 cp s3://lloydscleandata/lloyds_1.csv /home/ec2-user/
 
 echo "CSV files are downloaded"
 
