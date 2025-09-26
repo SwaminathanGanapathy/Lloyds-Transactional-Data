@@ -52,3 +52,27 @@ pip install -r requirements.txt   # or manually install pandas, numpy, matplotli
 
 # Launch notebooks
 jupyter notebook
+```
+
+---
+
+## 🔹 File Structure
+```
+DSMP.ipynb                       # Main analysis & modeling notebook
+DSMP_2.ipynb                     # Additional analysis & experiments
+requirements.txt                 # Dependencies
+README.md                        # Project documentation
+```
+
+---
+
+## 🔹 Next Steps
+- Refine customer segmentation with more robust clustering.
+- Enhance predictive modeling with feature engineering & hyperparameter tuning.
+- Deploy dashboards (Streamlit/Power BI) for interactive exploration.
+
+---
+
+## 🔹 Author
+**Swaminathan Ganapathy**  
+[GitHub Profile](https://github.com/SwaminathanGanapathy)
